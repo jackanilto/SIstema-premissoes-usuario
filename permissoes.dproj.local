@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/09 16:46:43.000.310,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/11 10:27:25.000.287,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/12 10:39:26.000.956,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/12 11:19:37.000.988,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/12 11:23:36.000.385,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/12 16:19:57.000.298,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/12 19:38:45.000.462,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/14 20:30:04.000.455,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/19 19:39:34.000.087,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/21 19:30:09.000.039,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/23 22:08:49.000.687,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/24 16:02:55.000.918,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/24 16:03:10.000.052,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/27 20:32:24.000.006,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/05 17:34:39.000.657,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/22 17:15:44.000.253,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/22 19:36:55.000.899,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/28 20:45:45.000.669,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/31 17:11:02.000.482,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/05 19:49:04.000.559,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/15 16:11:58.000.766,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 22:03:10.000.484,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/19 17:30:18.000.501,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/24 15:20:02.000.806,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/28 17:20:11.000.075,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/05 21:22:29.000.592,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/24 11:24:04.000.346,=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/24 11:35:40.000.392,=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\uusuarios.pas</Transaction>
+    <Transaction>2022/04/24 11:35:40.000.249,=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\uacesso.pas</Transaction>
+    <Transaction>2022/04/24 13:18:48.000.081,C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\utela.dfm=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/04/24 13:18:48.000.081,C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\utela.pas=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/24 13:18:56.000.051,C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\permissoes.dproj=C:\Users\EDER\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/04/24 16:29:50.000.130,C:\Users\EDER\Desktop\permissões\uusuarios.dfm=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\uusuarios.dfm</Transaction>
+    <Transaction>2022/04/24 16:29:50.000.130,C:\Users\EDER\Desktop\permissões\uusuarios.pas=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\uusuarios.pas</Transaction>
+    <Transaction>2022/04/24 16:30:09.000.555,C:\Users\EDER\Desktop\permissões\uacesso.pas=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\uacesso.pas</Transaction>
+    <Transaction>2022/04/24 16:30:09.000.555,C:\Users\EDER\Desktop\permissões\uacesso.dfm=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\uacesso.dfm</Transaction>
+    <Transaction>2022/04/24 16:30:22.000.726,C:\Users\EDER\Desktop\permissões\utela.pas=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\utela.pas</Transaction>
+    <Transaction>2022/04/24 16:30:22.000.726,C:\Users\EDER\Desktop\permissões\utela.dfm=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\utela.dfm</Transaction>
+    <Transaction>2022/04/24 16:30:32.000.430,C:\Users\EDER\Desktop\permissões\permissoes.dproj=C:\ESTUDOS 2021\124 - UMA PEQUENA DEMONSTRAÇÃO DE PERMISSÕES DE USUARIOS\permissoes.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

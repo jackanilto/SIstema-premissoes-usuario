@@ -1,0 +1,423 @@
+object fusuarios: Tfusuarios
+  Left = 578
+  Top = 223
+  Caption = 'Permiss'#245'es e N'#237'vel de Acesso'
+  ClientHeight = 595
+  ClientWidth = 1001
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = [fsBold]
+  Icon.Data = {
+    0000010001002020000000000000A80800001600000028000000200000004000
+    0000010008000000000080040000000000000000000000010000000000000000
+    0000000080000080000000808000800000008000800080800000C0C0C000C0DC
+    C000F0CAA600CCFFFF0099FFFF0066FFFF0033FFFF00FFCCFF00CCCCFF0099CC
+    FF0066CCFF0033CCFF0000CCFF00FF99FF00CC99FF009999FF006699FF003399
+    FF000099FF00FF66FF00CC66FF009966FF006666FF003366FF000066FF00FF33
+    FF00CC33FF009933FF006633FF003333FF000033FF00CC00FF009900FF006600
+    FF003300FF00FFFFCC00CCFFCC0099FFCC0066FFCC0066FFCC0033FFCC0000FF
+    CC00FFCCCC00CCCCCC0099CCCC0066CCCC0033CCCC0000CCCC00FF99CC00CC99
+    CC009999CC006699CC003399CC000099CC00FF66CC00CC66CC009966CC006666
+    CC003366CC000066CC00FF33CC00CC33CC009933CC006633CC003333CC000033
+    CC00FF00CC00CC00CC009900CC006600CC003300CC000000CC00FFFF9900CCFF
+    990099FF990066FF990033FF990000FF9900FFCC9900CCCC990099CC990066CC
+    990033CC990000CC9900FF999900CC9999009999990066999900339999000099
+    9900FF669900CC66990099669900666699003366990000669900FF339900CC33
+    990099339900663399003333990000339900FF009900CC009900990099006600
+    99003300990000009900FFFF6600CCFF660099FF660066FF660033FF660000FF
+    6600FFCC6600CCCC660099CC660066CC660033CC660000CC6600FF996600CC99
+    660099996600669966003399660000996600FF666600CC666600996666006666
+    66003366660000666600FF336600CC3366009933660066336600333366000033
+    6600FF006600CC00660099006600660066003300660000006600FFFF3300CCFF
+    330099FF330066FF330033FF330000FF3300FFCC3300CCCC330099CC330066CC
+    330033CC330000CC3300FF993300CC9933009999330066993300339933000099
+    3300FF663300CC66330099663300666633003366330000663300FF333300CC33
+    330099333300663333003333330000333300FF003300CC003300990033006600
+    33003300330000003300CCFF000099FF000066FF000033FF0000FFCC0000CCCC
+    000099CC000066CC000033CC000000CC0000FF990000CC990000999900006699
+    00003399000000990000FF660000CC6600009966000066660000006600003366
+    0000FF330000CC33000099330000663300003333000000330000CC0000009900
+    000066000000330000000000DD000000BB000000AA0000008800000077000000
+    5500000044000000220000DD000000BB000000AA000000880000007700000055
+    00000044000000220000DDDDDD00555555007777770077777700444444002222
+    22001111110077000000550000004400000022000000F0FBFF00A4A0A0008080
+    80000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00000000ECECECEC000000000000000000000000ECECECEC0000000000000000
+    000000ECEC0707ECEC00000000000000000000ECEC0707ECEC00000000000000
+    000000EC075D5D07EC00000000000000000000EC075D5D07EC00000000000000
+    EC0000EC075D5D07EC0000EC19191919EC0000EC075D5D07EC0000EC00000019
+    190000ECEC0707ECEC00001919191919190000ECEC0707ECEC00001919000019
+    19EC0000ECECECEC0000EC191919191919EC0000ECECECEC0000EC1919000019
+    19190000000000000000191919191919191900000000000000001919190000ED
+    191919EC00000000EC19191919191919191919EC00000000EC191919190000EF
+    ED195D5D5D5D5D191919191919191919191919191919191919191919000000EF
+    ED5D19191919195D1919190000000000000000000000000000000000000000EF
+    ED5D19191919195D1919006000191919191919191919191919191919000000EF
+    ED5D19191919EC5D190060001913EB131913EB131913EB131913EB13190000EF
+    ED5D19191919195D190060001913EB131913EB131913EB131913EB1319000019
+    1900000000000000190060001913EB131913EB131913EB131913EB1319000000
+    004F4F2525252525000060001913EB131913EB131913EB131913EB1319000000
+    4F4F4F4F252525254F0060001913EB131913EB131913EB131913EB1319000000
+    4F4F4F4F4F25254F4F0060001913EB131913EB131913EB131913EB1319000000
+    4F4F4F4F1717174F4F0060001913EB131913EB131913EB131913EB1319000000
+    4F4F4F171717654F4F0060001913EB131913EB131913EB131913EB1319000000
+    004F4F17CB65654F4F0060001913EB131913EB131913EB131913EB1319000000
+    004F13131313134F4F0060001913EB131913EB131913EB131913EB1319000000
+    004F4F131313134F4F0060001913EB131913EB131913EB131913EB1319000000
+    004F4F4F4F4F4F4F4F0060001913EB131913EB131913EB131913EB1319000000
+    0000000000000000006000191919191919191919191919191919191900000000
+    0000000000000000000019191900000000000000000000000000000000000000
+    0000000000000000001919190000000000000000000000000000000000000000
+    0019191919191919191900000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    000000000000000000000000000000000000000000000000000000000000FC3F
+    FC3FF00FF00FF00FF00FE007E007E007E0078000000100000000000000000000
+    0000000000000000000100000003000000010000000000000000000000008000
+    000080000000800000008000000080000000C0000000C0000000C0000000C000
+    0000E0000001FFE00003E001FFFFC003FFFFE00FFFFFFFFFFFFFFFFFFFFF}
+  Position = poScreenCenter
+  OnActivate = FormActivate
+  TextHeight = 13
+  object GroupBox2: TGroupBox
+    Left = 728
+    Top = 8
+    Width = 265
+    Height = 577
+    Caption = 'Permiss'#245'es - Menus marcados = liberados'
+    Color = 13360371
+    ParentColor = False
+    TabOrder = 0
+    object cb1: TDBCheckBox
+      Left = 11
+      Top = 24
+      Width = 97
+      Height = 17
+      Caption = 'Cadastros'
+      DataField = 'MENU1'
+      DataSource = DataSource1
+      TabOrder = 0
+      ValueChecked = '1'
+      ValueUnchecked = '0'
+    end
+    object cb2: TDBCheckBox
+      Left = 18
+      Top = 191
+      Width = 177
+      Height = 17
+      Caption = 'Altera'#231#245'es'
+      DataField = 'MENU2'
+      DataSource = DataSource1
+      TabOrder = 1
+      ValueChecked = '1'
+      ValueUnchecked = '0'
+    end
+    object cb3: TDBCheckBox
+      Left = 18
+      Top = 372
+      Width = 217
+      Height = 17
+      Caption = 'Consultas'
+      DataField = 'MENU3'
+      DataSource = DataSource1
+      TabOrder = 2
+      ValueChecked = '1'
+      ValueUnchecked = '0'
+    end
+    object cb4: TDBCheckBox
+      Left = 23
+      Top = 538
+      Width = 161
+      Height = 17
+      Caption = 'Usu'#225'rios'
+      DataField = 'MENU4'
+      DataSource = DataSource1
+      TabOrder = 3
+      ValueChecked = '1'
+      ValueUnchecked = '0'
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 8
+    Width = 711
+    Height = 577
+    Caption = 'Usu'#225'rios:'
+    Color = 16757683
+    ParentColor = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 8
+      Top = 16
+      Width = 103
+      Height = 13
+      Caption = 'Data do cadastro:'
+      FocusControl = DBEdit1
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 75
+      Width = 100
+      Height = 13
+      Caption = 'Nome do usu'#225'rio:'
+      FocusControl = DBEdit2
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 133
+      Width = 41
+      Height = 13
+      Caption = 'Senha:'
+      FocusControl = DBEdit3
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 192
+      Width = 98
+      Height = 13
+      Caption = 'N'#237'vel de acesso:'
+    end
+    object DBEdit1: TDBEdit
+      Left = 8
+      Top = 32
+      Width = 103
+      Height = 21
+      DataField = 'CADUSU'
+      DataSource = DataSource1
+      TabOrder = 0
+    end
+    object DBEdit2: TDBEdit
+      Left = 8
+      Top = 91
+      Width = 361
+      Height = 21
+      CharCase = ecUpperCase
+      DataField = 'NOMUSO'
+      DataSource = DataSource1
+      TabOrder = 1
+    end
+    object DBEdit3: TDBEdit
+      Left = 8
+      Top = 149
+      Width = 169
+      Height = 21
+      DataField = 'SENUSO'
+      DataSource = DataSource1
+      TabOrder = 2
+    end
+    object DBComboBox1: TDBComboBox
+      Left = 8
+      Top = 208
+      Width = 169
+      Height = 21
+      DataField = 'NIVEL'
+      DataSource = DataSource1
+      Items.Strings = (
+        'ADMINISTRADOR'
+        'USUARIO')
+      TabOrder = 3
+    end
+    object Panel2: TPanel
+      Left = 560
+      Top = 8
+      Width = 137
+      Height = 281
+      Color = 16768991
+      TabOrder = 4
+      object btgravar: TBitBtn
+        Left = 32
+        Top = 8
+        Width = 75
+        Height = 25
+        Caption = '&Gravar'
+        TabOrder = 0
+        OnClick = btgravarClick
+      end
+      object btnovo: TBitBtn
+        Left = 32
+        Top = 56
+        Width = 75
+        Height = 25
+        Caption = '&Novo'
+        TabOrder = 1
+        OnClick = btnovoClick
+      end
+      object BitBtn1: TBitBtn
+        Left = 32
+        Top = 104
+        Width = 75
+        Height = 25
+        Caption = '&Editar'
+        TabOrder = 2
+        OnClick = BitBtn1Click
+      end
+      object BitBtn2: TBitBtn
+        Left = 32
+        Top = 152
+        Width = 75
+        Height = 25
+        Caption = 'E&xcluir'
+        TabOrder = 3
+        OnClick = BitBtn2Click
+      end
+      object btcancelar: TBitBtn
+        Left = 32
+        Top = 200
+        Width = 75
+        Height = 25
+        Caption = '&Cancelar'
+        TabOrder = 4
+        OnClick = btcancelarClick
+      end
+      object btsair: TBitBtn
+        Left = 32
+        Top = 248
+        Width = 75
+        Height = 25
+        Caption = '&Sair'
+        TabOrder = 5
+        OnClick = btsairClick
+      end
+    end
+    object GroupBox3: TGroupBox
+      Left = 8
+      Top = 290
+      Width = 689
+      Height = 281
+      Caption = 'Busca de usu'#225'rios:'
+      TabOrder = 5
+      object Label5: TLabel
+        Left = 8
+        Top = 24
+        Width = 37
+        Height = 13
+        Caption = 'Nome:'
+      end
+      object SpeedButton1: TSpeedButton
+        Left = 448
+        Top = 24
+        Width = 23
+        Height = 22
+        Caption = '...'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Edit1: TEdit
+        Left = 56
+        Top = 24
+        Width = 385
+        Height = 21
+        CharCase = ecUpperCase
+        TabOrder = 0
+      end
+      object btbuscar: TBitBtn
+        Left = 488
+        Top = 24
+        Width = 73
+        Height = 25
+        Caption = '&Buscar '
+        TabOrder = 1
+        OnClick = btbuscarClick
+      end
+      object DBGrid1: TDBGrid
+        Left = 3
+        Top = 51
+        Width = 665
+        Height = 217
+        TabStop = False
+        DataSource = DataSource1
+        ReadOnly = True
+        TabOrder = 2
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = [fsBold]
+      end
+      object btlimpar: TBitBtn
+        Left = 600
+        Top = 24
+        Width = 75
+        Height = 25
+        Caption = '&Limpar'
+        TabOrder = 3
+        OnClick = btlimparClick
+      end
+    end
+  end
+  object tbusuarios: TFDTable
+    Active = True
+    IndexFieldNames = 'CODUSO'
+    Connection = facesso.Dicas2021Connection
+    UpdateOptions.UpdateTableName = 'USUARIOS'
+    TableName = 'USUARIOS'
+    Left = 360
+    Top = 32
+    object tbusuariosCODUSO: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'CODUSO'
+      Origin = 'CODUSO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+    end
+    object tbusuariosCADUSU: TDateField
+      FieldName = 'CADUSU'
+      Origin = 'CADUSU'
+      Required = True
+    end
+    object tbusuariosNOMUSO: TStringField
+      FieldName = 'NOMUSO'
+      Origin = 'NOMUSO'
+      Required = True
+      Size = 60
+    end
+    object tbusuariosSENUSO: TStringField
+      FieldName = 'SENUSO'
+      Origin = 'SENUSO'
+      Required = True
+      Size = 10
+    end
+    object tbusuariosMENU1: TStringField
+      FieldName = 'MENU1'
+      Origin = 'MENU1'
+      Required = True
+      Size = 1
+    end
+    object tbusuariosMENU2: TStringField
+      FieldName = 'MENU2'
+      Origin = 'MENU2'
+      Required = True
+      Size = 1
+    end
+    object tbusuariosMENU3: TStringField
+      FieldName = 'MENU3'
+      Origin = 'MENU3'
+      Required = True
+      Size = 1
+    end
+    object tbusuariosMENU4: TStringField
+      FieldName = 'MENU4'
+      Origin = 'MENU4'
+      Required = True
+      Size = 1
+    end
+    object tbusuariosNIVEL: TStringField
+      FieldName = 'NIVEL'
+      Origin = 'NIVEL'
+      Required = True
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = tbusuarios
+    Left = 440
+    Top = 32
+  end
+end

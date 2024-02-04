@@ -1,0 +1,123 @@
+unit uacesso;
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, Mask, DBCtrls, Buttons,db, ExtCtrls,
+   jpeg, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error,
+  FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool,
+  FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.FB, FireDAC.Phys.FBDef,
+  FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, FireDAC.Comp.DataSet, FireDAC.Comp.Client, FireDAC.Phys.IBBase;
+
+type
+  Tfacesso = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    btlogar: TBitBtn;
+    Edit2: TEdit;
+    Label2: TLabel;
+    ecoduso: TEdit;
+    Dicas2021Connection: TFDConnection;
+    Timer1: TTimer;
+    dsusuario: TDataSource;
+    qveracesso: TFDQuery;
+    dsqveracesso: TDataSource;
+    qveracessoCODUSO: TIntegerField;
+    qveracessoNOMUSO: TStringField;
+    qveracessoSENUSO: TStringField;
+    tbusuarios: TFDTable;
+    tbusuariosCODUSO: TIntegerField;
+    tbusuariosCADUSU: TDateField;
+    tbusuariosNOMUSO: TStringField;
+    tbusuariosSENUSO: TStringField;
+    tbusuariosMENU1: TStringField;
+    tbusuariosMENU2: TStringField;
+    tbusuariosMENU3: TStringField;
+    tbusuariosMENU4: TStringField;
+    tbusuariosNIVEL: TStringField;
+    FDPhysFBDriverLink1: TFDPhysFBDriverLink;
+    procedure btlogarClick(Sender: TObject);
+    procedure Edit1Exit(Sender: TObject);
+    procedure Edit2KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+  private
+     tenta:integer;
+    { Private declarations }
+  public
+
+    { Public declarations }
+  end;
+
+var
+  facesso: Tfacesso;
+
+implementation
+
+
+
+{$R *.DFM}
+
+uses utela;
+
+
+procedure Tfacesso.btlogarClick(Sender: TObject);
+var vezes: integer;
+begin
+     with qveracesso do
+     begin
+         close;
+         sql.clear;
+         sql.add('select coduso, nomuso, senuso from usuarios where nomuso = :pnom and senuso = :psen');
+         ParamByName('pnom').AsString := edit2.text;
+         ParamByName('psen').AsString := edit1.text;
+         open;
+         ShowMessage(inttostr(qveracessocoduso.value));
+         if qveracesso.RecordCount > 0 then
+         begin
+            ecoduso.text := inttostr(qveracessocoduso.value);
+            ftela.showmodal;
+            facesso.close;
+         end
+         else begin
+              vezes:=MessageBox(Handle, pchar('Erro de Login...Senha Incorreta !') , pchar('Acesso ao Sistema'), 21);
+                 If vezes=4 then
+                 begin
+                   edit1.enabled:=true;
+                  edit1.setfocus;
+                 Inc(tenta);
+                  end;
+
+                        If vezes=2 then
+                        begin
+                          close;
+                        end;
+
+                 if tenta = 2 then begin
+                    messagebeep(16);
+                    messagedlg('Acesso não permitido!',
+                    mtinformation,[mbok],0);
+                    facesso.close;
+                    application.terminate;
+                 end;
+         end;
+     end;
+
+end;
+procedure Tfacesso.Edit1Exit(Sender: TObject);
+begin
+           edit1.enabled:=false;
+
+end;
+
+procedure Tfacesso.Edit2KeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+  begin
+    // define tab on press enter para navegar entre dbedit´s (Login)
+    if Key = vk_return then
+      SelectNext(ActiveControl, True, True);
+  end;
+
+end.
+
+
+

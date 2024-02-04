@@ -1,0 +1,96 @@
+object ftela: Tftela
+  Left = 343
+  Top = 386
+  Caption = 'ftela'
+  ClientHeight = 514
+  ClientWidth = 991
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  Position = poScreenCenter
+  OnActivate = FormActivate
+  OnClose = FormClose
+  TextHeight = 13
+  object bar: TStatusBar
+    Left = 0
+    Top = 495
+    Width = 991
+    Height = 19
+    Panels = <
+      item
+        Width = 300
+      end
+      item
+        Width = 300
+      end
+      item
+        Width = 50
+      end>
+  end
+  object MainMenu1: TMainMenu
+    Left = 144
+    Top = 56
+    object CADASTROS1: TMenuItem
+      Caption = '&CADASTROS'
+      object CLIENTES1: TMenuItem
+        Caption = 'C&LIENTES'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object PRODUTOS1: TMenuItem
+        Caption = '&PRODUTOS'
+      end
+    end
+    object ALTERACOES1: TMenuItem
+      Caption = '&ALTERA'#199#213'ES'
+      object CLIENTES2: TMenuItem
+        Caption = '&CLIENTES'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object PRODUTOS2: TMenuItem
+        Caption = '&PRODUTOS'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+    end
+    object CONSULTAS1: TMenuItem
+      Caption = 'C&ONSULTAS'
+      object CLIENTES3: TMenuItem
+        Caption = '&CLIENTES'
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object PRODUTOS3: TMenuItem
+        Caption = '&PRODUTOS'
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+    end
+    object USUARIOS1: TMenuItem
+      Caption = '&USUARIOS'
+      object CADUSUARIOS1: TMenuItem
+        Caption = 'CAD_USUARIOS'
+        OnClick = CADUSUARIOS1Click
+      end
+    end
+    object SAIR1: TMenuItem
+      Caption = '&SAIR'
+      OnClick = SAIR1Click
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 56
+    Top = 40
+  end
+end

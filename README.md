@@ -27,7 +27,7 @@ CREATE TABLE USUARIOS (
   NIVEL VARCHAR(255)
 );
 ```
-Formulário de Acesso (uacesso):
+# Formulário de Acesso (uacesso):
 Este formulário é responsável pela autenticação dos usuários no sistema.
 
 Componentes Principais:
@@ -43,7 +43,7 @@ btlogarClick: Manipula o clique no botão de login, realizando a autenticação 
 Formulário de Usuários (uusuarios):
 Este formulário é responsável pela gestão dos usuários do sistema, permitindo a inclusão, edição, exclusão e busca de registros na tabela USUARIOS.
 
-Componentes Principais:
+# Componentes Principais:
 
 DBCheckBox: Checkboxes para seleção de permissões de menus.
 DBEdit, DBComboBox: Campos para inserção e seleção de informações do usuário.
@@ -60,7 +60,7 @@ BitBtn2Click: Realiza a exclusão de um usuário, solicitando confirmação ante
 Tela Principal (utela):
 Este formulário representa a tela principal do sistema após a autenticação.
 
-Componentes Principais:
+# Componentes Principais:
 
 MainMenu: Barra de menus com opções como CADASTROS, CONSULTAS, SAIR, etc.
 StatusBar: Barra de status exibindo informações como data e hora.
